@@ -109,8 +109,8 @@ class Network():
             else:
                 print(f'Epoch {i} is done.')
 
+if __name__ == "__main__":
+    training_data, test_data, valid_data = load_data.loader()
+    obj = Network([784, 30, 25, 10])
 
-training_data, test_data, valid_data = load_data.loader()
-obj = Network([784, 30, 25, 10])
-
-obj.SGD(training_data, 50, 10, 1.3, valid_data)
+    obj.SGD(training_data, 50, 10, 1.3, valid_data)

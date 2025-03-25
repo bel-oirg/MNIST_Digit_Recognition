@@ -1,7 +1,7 @@
 # MNIST Digit Recognition using Neural Networks
 
 ## Overview
-This project implements a simple feedforward neural network to classify handwritten digits from the [MNIST dataset](http://yann.lecun.com/exdb/mnist/). The network is trained using stochastic gradient descent (SGD) and backpropagation.
+This project implements feedforward neural network to classify handwritten digits from the [MNIST dataset](http://yann.lecun.com/exdb/mnist/). The network is trained using stochastic gradient descent (SGD) and backpropagation.
 ![mnist_sample](https://github.com/user-attachments/assets/79c8c606-4d0b-4e2f-b8c0-5ac188eced8d)
 
 ## Features
